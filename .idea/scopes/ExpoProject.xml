@@ -1,0 +1,3 @@
+<component name="DependencyValidationManager">
+  <scope name="ExpoProject" pattern="!file[snake-game-app]:.expo/*&amp;&amp;!file[snake-game-app]:.expo-shared/*&amp;&amp;!file[snake-game-app]:.idea/*" />
+</component>
