@@ -1,4 +1,4 @@
-import { createSlice } from "@reduxjs/toolkit";
+import { createSlice } from '@reduxjs/toolkit'
 
 const initialState = {
   positionList: [
@@ -8,23 +8,23 @@ const initialState = {
     { x: 100, y: 80 },
     { x: 100, y: 130 },
     { x: 70, y: 130 },
-    { x: 70, y: 50 },
+    { x: 70, y: 50 }
   ],
   canvasWidth: 0,
-  canvasHeight: 0,
-};
+  canvasHeight: 0
+}
 
 export const snakeSlice = createSlice({
-  name: "snake",
+  name: 'snake',
   initialState,
   reducers: {
     changeDimensions: (state, action) => {
-      state.canvasWidth = action.payload.canvasWidth;
-      state.canvasHeight = action.payload.canvasHeight;
-    },
-  },
-});
+      state.canvasWidth = action.payload.canvasWidth
+      state.canvasHeight = action.payload.canvasHeight
+    }
+  }
+})
 
-export const { changeDimensions } = snakeSlice.actions;
+export const { changeDimensions } = snakeSlice.actions
 
-export default snakeSlice.reducer;
+export default snakeSlice.reducer

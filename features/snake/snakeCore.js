@@ -1,3 +1,3 @@
 
-const list = [];
-
+const list = []
+console.log(list)
