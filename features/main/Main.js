@@ -20,6 +20,7 @@ export default function Main ({ navigation }) {
         }}
       />
       <Button title='Storage' onPress={() => navigation.navigate('Storage')} />
+      <Button title='Scanner' onPress={() => navigation.navigate('Scanner')} />
       <Button title='fetch' onPress={() => axios.get('https://www.google.com')} />
 
     </View>
